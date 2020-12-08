@@ -25,7 +25,18 @@ INSERT INTO Students(StudentName, Address,City,PostalCode,Country,Id) values ("J
 ("Gunjan" , "57 Union St" ,"Philidelphia","G13RB","Afghanistan",25 ),
  ("Daksh" , "57 Union St" ,"Trenton","G13RB","Japan",10 );
 
+INSERT INTO Students(StudentName, Address,City,PostalCode,Country,Id) values ("Jane Doe" , "57 Union St" ,"Canc","G13RB","India" ,15 ),
+("Gunjan" , "57 Union St" ,"Philidelphia","G13RB","Afghanistan",25 ),
+ ("Daksh" , "57 Union St" ,"Trenton","G13RB","Japan",10 );
 
- INSERT INTO Enrolments(StudentID , StudentName,CourseName) values (5 , "Jane Doe" ,"Science" ),
-  (5 , "Jane Doe", "Maths" ),
-  (15 , "Jane Doe", "Data Structure" );
+ INSERT INTO Enrolments(StudentID , StudentName,CourseName) values (15 , "Jane Doe" ,"Science" ),
+  (15 , "Jane Doe", "Maths" ),
+  (15 , "Jane Doe", "Data Structure" ),
+  (25 , "Gunjan", "Data Structure" );
+
+
+
+ INSERT INTO Enrolments(StudentID , StudentName,CourseName) values (15 , "Jane Doe" ,"Language" ),
+  (40 , "Radhika", "Maths" ),
+  (40 , "Radhika", "Data Structure" ),
+  (65 , "Murli", "Data Structure" );
